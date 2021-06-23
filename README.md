@@ -1,7 +1,8 @@
-# SantanderBootcamp
-<img src="C:\Users\lilik\Desktop\1bc691b4-fb46-4561-a302-d55fb94fe297.png" style="zoom: 15%;" />
+# ♨️ Santander Bootcamp | Fullstack Developer 
 
-<center> <h3> ♨️ Santander Bootcamp | Fullstack Developer </h3> </center>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/50052600/123175180-b773e080-d457-11eb-9330-e965d2925341.png" alt="Photo Card" width="25%"/>
+</p>
 
 ------
 
