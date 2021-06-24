@@ -27,3 +27,51 @@ Crie um mapa mental para resolver um determinado problema, por exemplo, calcular
     Resolução01 : 5 + 7 + 10 + 3 = 25 então 25/4 = 6,25
 
 -------------------------- // -------------------------- // -------------------------- // --------------------------
+
+2- O que são algoritmos e pseudocódigos
+
+Sequencia logica de acontecimentos :
+    Inicio do dia:
+        Acordei
+        Levantei da cama
+        Troquei de roupa
+        Escovei os dentes
+        Fui a padaria
+        Tomei café
+        Escoveios dentes
+        ...
+    Fim-dia
+
+    Observação : Se alterar a ordem pode ser que alguma coisa falhe, por exemplo, não tem como levantar da cama se a pessoa não acordar (com excessao dos sonambulos).
+
+    Exemplo em aula e desafio (Consegui concluir todos os leveis): https://studio.code.org/s/mc/lessons/1/levels/13
+
+Pseudocódigos :
+
+Forma generica de escrever um algoritmo.
+    Wolf, Sheep and Cabbage Game : O fazendeiro precisa levar o Alface, a Ovelha e o Lobo para o outro lado do rio mas só cabe uma coisa no seu barco e ele não pode deixar o Lobo sozinho com a Ovelha e nem a Ovelha sozinha com o Alface.
+
+    Inicio do Jogo
+        Ovelha entra no barco
+        O homem atravessa o rio com a ovelha no barco
+        Ovelha desce 
+        O homem atravessa o rio novamente mas com o barco vazio
+        Alface entra no barco
+        O homem atravessa o rio com o alface no barco
+        O alface desce
+        Ovelha entra no barco
+        O homem atravessa o rio com a ovelha no barco
+        Ovelha desce
+        O lobo entra no barco
+        O homem atravessa o rio com o lobo no barco
+        O logo desce
+        O homem atravessa o rio novamente mas com o barco vazio
+        Ovelha entra no barco
+        O homem atravessa o rio com a ovelha no barco
+        Ovelha desce
+    Fim da Viajem
+
+    Exemplo da Aula: https://www.proprofsgames.com/wolf/
+
+
+-------------------------- // -------------------------- // -------------------------- // --------------------------
