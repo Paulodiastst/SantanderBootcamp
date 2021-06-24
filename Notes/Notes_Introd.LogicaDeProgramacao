@@ -44,12 +44,12 @@ Sequencia logica de acontecimentos :
 
     Observação : Se alterar a ordem pode ser que alguma coisa falhe, por exemplo, não tem como levantar da cama se a pessoa não acordar (com excessao dos sonambulos).
 
-    Exemplo em aula e desafio (Consegui concluir todos os leveis): https://studio.code.org/s/mc/lessons/1/levels/13
 
 Pseudocódigos :
 
 Forma generica de escrever um algoritmo.
-    Wolf, Sheep and Cabbage Game : O fazendeiro precisa levar o Alface, a Ovelha e o Lobo para o outro lado do rio mas só cabe uma coisa no seu barco e ele não pode deixar o Lobo sozinho com a Ovelha e nem a Ovelha sozinha com o Alface.
+
+Desafio 00 -    Wolf, Sheep and Cabbage Game : O fazendeiro precisa levar o Alface, a Ovelha e o Lobo para o outro lado do rio mas só cabe uma coisa no seu barco e ele não pode deixar o Lobo sozinho com a Ovelha e nem a Ovelha sozinha com o Alface.
 
     Inicio do Jogo
         Ovelha entra no barco
@@ -74,4 +74,126 @@ Forma generica de escrever um algoritmo.
     Exemplo da Aula: https://www.proprofsgames.com/wolf/
 
 
+Desafio 01 - A minha rotina em um algoritmo simples
+        Inicio do meu dia
+            Deitada na Cama do Quarto
+            Meu corpo desperta
+            Pego o meu celular
+            No celular assisto videos aleatorios no TIKTOK
+            Me levanto da cama
+            Saio do quarto
+            Vou até a cozinha
+            Pego uma xicará de café
+            Retorno para a cama
+            Assisto videos aleatorios no TIKTOK enquanto tomo café
+            Me levanto da cama
+            Pego a toalha, sabonete, celular e escovas de dentes
+            Saio do quarto
+            Entro no banheiro para tomar banho
+            Antes de entrar no Box seleciono uma playlist de musicas para tocar no celular
+            Entro no Box
+            Tomo banho enquanto escuto musica e escovo os dentes
+            Saio do Box
+            Saio do banheiro levantando a Toalha, sabonete, celular e escovas de dentes comigo
+            Vou até o quarto
+            Guardo a toalha, sabonete e escova de dentes
+            Visto o meu macacão de dinossauro
+            Coloco o meu fone de ouvido no meu celular para tocar outras musicas
+            Saio do quarto ouvindo musica
+            Vou até a cozinha
+            Tomo outra xicará de café
+            Retorno para o quarto
+            Arrummo o local onde irei passar o dia sentada no Notebook
+            Sento na cadeira
+            Saio do quarto
+            Entro na cozinha
+            Pego o meu almoço e retorno para o quarto
+            Assisto videos aleatorios no Notebook enquanto almoço
+            Saio do quarto com o prato vazio nas mãos
+            Entro na cozinha
+            Lavo o prato e o copo utilizados durante o almoço
+            Saio da cozinha
+            Entro no quarto
+            Pego a escova de dentes
+            Saio do quarto
+            Entro no banheiro
+            Escovo os dentes
+            Saio do banheiro
+            Entro no quarto
+            Sento na cadeira que fica no local onde costumo passar o dia
+            Fico vendo videos aleatorios no Notebook
+            Começo a estudar através de foruns e video-aulas
+            Saio do quarto
+            Entro na cozinha
+            Faço o meu lanche da tarde com café
+            Saio da cozinha
+            Entro no quarto com o meu Café da tarde
+            Sento na cadeira que fica no local onde costumo passar o dia
+            Estudo enquanto lancho
+            Saio do quarto
+            Entro na cozinha
+            Pego a minha janta e retorno para o quarto
+            Assisto videos aleatorios no Notebook enquanto janto
+            Saio do quarto com o prato vazio nas mãos
+            Entro na cozinha
+            Lavo o prato e o copo utilizados durante o janto
+            Saio da cozinha
+            Entro no quarto
+            Pego a escova de dentes
+            Saio do quarto
+            Entro no banheiro
+            Escovo os dentes
+            Saio do banheiro
+            Entro no quarto
+            Sento na cadeira que fica no local onde costumo passar o dia
+            Assisto ou Jogo algo aleatorio
+            Estudo
+            Saio do quarto
+            Entro na cozinha
+            Faço o meu lanche da noite com café
+            Saio da cozinha
+            Entro no quarto com o meu Café da noite
+            Sento na cadeira que fica no local onde costumo passar o dia
+            Estudo (?)
+            Assisto coisas aleatorias (?)
+            Desligo o Notebook
+            Deito na Cama do Quarto
+            Pego o meu celular
+            No celular assisto videos aleatorios no TIKTOK
+            Meu corpo quer dormir
+        Fi do dia
+
+
+Desafio 02 - Tente fazer em menos de uma hora
+
+    Exemplo em aula e desafio (Consegui concluir todos os leveis): https://studio.code.org/s/mc/lessons/1/levels/13
+
+
+Desafio 03 - Os pinguins filhotes tem medo de ficar longe de seus pais, por isso você nunca deve esquecer eles sozinhos. O pequeno iceberg só se movimenta com um pinguim em cima dele.
+
+        Inicio de Jogo
+            Iceberg vazio
+            Entra a Mãe de Cachecol Vermelho
+            Entra o filhote de Cachecol Vermelho
+            Atravessam para o outro lado do Oceano no Iceberg
+            A Mãe de Cachecol Vermelho desce do Iceberg
+            O filhote de cachecol Vermelho retorna para o outro lado do Oceano no Iceberg
+            Entra o filhote de Cachecol Verde
+            Atravessam para o outro lado do Oceano no Iceberg
+            O filhote de cachecol Vermelho desce
+            O filhote de cachecol Verde retorna para o outro lado do Oceano no Iceberg
+            Entra a Mãe de Cachecol Verde
+            Atravessam para o outro lado do Oceano no Iceberg
+            A Mãe de Cachecol Verde desce do Iceberg
+            O filhote de cachecol Verde retorna para o outro lado do Oceano no Iceberg
+            Entra o filhote de Cachecol Azul
+            Atravessam para o outro lado do Oceano no Iceberg
+            O filhote de cachecol Verde desce
+            O filhote de cachecol Azul retorna para o outro lado do Oceano no Iceberg
+            Entra a Mãe de Cachecol Azul
+            Atravessam para o outro lado do Oceano no Iceberg
+            A Mãe de Cachecol Azul desce do Iceberg
+            O filhote de cachecol Azul desce
+        Fim da Viajem
+            
 -------------------------- // -------------------------- // -------------------------- // --------------------------
