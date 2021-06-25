@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="lilik"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-25 10:27:09 "/>
+        <attribute name="created" value="bGlsaWs7TUVXTUVXOzIwMjEtMDYtMjU7IjEwOjIzOjQ0ICI7MjE4Ng=="/>
+        <attribute name="edited" value="bGlsaWs7TUVXTUVXOzIwMjEtMDYtMjU7IjEwOjI3OjA5ICI7MTsyMjk5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="1"/>
+            <assign variable="B" expression="1"/>
+            <assign variable="C" expression="3"/>
+            <output expression="A&gt;3" newline="True"/>
+            <output expression="A&lt;3" newline="True"/>
+            <output expression="A==B" newline="True"/>
+            <output expression="A&lt;=B" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

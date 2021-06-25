@@ -251,3 +251,13 @@ Antes de sentar para resolver o código é recomendavel que escrevamos o passo-a
     A               A = 2
     B               B = A + 3
     C               C = A + B
+
+    //Operadores relacionais que retornam valores logicos (verdadeiro ou falso)
+    1 > 3 = Falso          | x > y     | 1 é maior que 3?
+    3 > 1 = Verdadeiro     | x >= y    |    ,, ,,
+    5 >= 5 = Verdadeiro    | x < y     |
+    5 <= 4 = Falso         | x <= y    |
+    5 == 5 = Verdadeiro    | x == y    |
+    3 != 2 = Verdadeiro    | x != y    |
+
+    //Tomadas de decisão

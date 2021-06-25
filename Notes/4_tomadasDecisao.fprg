@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="lilik"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-25 10:38:07 "/>
+        <attribute name="created" value="bGlsaWs7TUVXTUVXOzIwMjEtMDYtMjU7IjEwOjMwOjUwICI7MjE4MQ=="/>
+        <attribute name="edited" value="bGlsaWs7TUVXTUVXOzIwMjEtMDYtMjU7IjEwOjM4OjA3ICI7MTsyMjk5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Cliente" type="String" array="False" size=""/>
+            <declare name="Cartao" type="Boolean" array="False" size=""/>
+            <declare name="numeroCartao" type="String" array="False" size=""/>
+            <input variable="Cliente"/>
+            <input variable="Cartao"/>
+            <if expression="Cartao">
+                <then>
+                    <input variable="numeroCartao"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente voc&#234; n&#227;o conseguir&#225; realizar a compra porqu&#234; a loja s&#243; aceita compras via cart&#227;o!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
