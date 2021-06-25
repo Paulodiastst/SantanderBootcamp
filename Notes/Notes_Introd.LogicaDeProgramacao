@@ -201,6 +201,7 @@ Desafio 03 - Os pinguins filhotes tem medo de ficar longe de seus pais, por isso
 
 Antes de sentar para resolver o código é recomendavel que escrevamos o passo-a-passo dele antes.
 
+    //Escrever um algoritmo pelo pseudocodigo
     Inicio
         Declara nota1 : número
         Declara nota2 : número
@@ -214,5 +215,19 @@ Antes de sentar para resolver o código é recomendavel que escrevamos o passo-a
         Media = (nota1 + nota2 + nota3 + nota4)/4
         Imprimir (media)
     Fim
+
+    //As variaveis e as constantes podem ser classificadas basicamente em 4 tipos: Numericas, Caracteres, Alfanumericas ou Logicas. 
+
+    //As constantes são valores imutaveis e não são alterados durante a vida util do programa
+    Inicio
+        Declara pi = 3,14 // Constantes
+    Fim
     
+    //Variavel
+    Inicio
+        Declara raio = número
+    Fim
+
+
+
 -------------------------- // -------------------------- // -------------------------- // --------------------------
