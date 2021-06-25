@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="lilik"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-25 11:28:32 "/>
+        <attribute name="created" value="bGlsaWs7TUVXTUVXOzIwMjEtMDYtMjU7IjExOjIyOjI5ICI7MjE4OQ=="/>
+        <attribute name="edited" value="bGlsaWs7TUVXTUVXOzIwMjEtMDYtMjU7IjExOjI4OjMyICI7MTsyMjk3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Janeiro, Fevereiro, Marco, Abril, Media" type="Integer" array="False" size=""/>
+            <input variable="Janeiro"/>
+            <input variable="Fevereiro"/>
+            <input variable="Marco"/>
+            <input variable="Abril"/>
+            <assign variable="Media" expression="(Janeiro+Fevereiro+Marco+Abril)/4"/>
+            <output expression="Media" newline="True"/>
+            <if expression="Media&gt;=5000">
+                <then>
+                    <output expression="&quot;Parab&#233;ns voc&#234; vai receber um abono de 50%!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Poderia ter vendido melhor, n&#233;? voc&#234; recebera o abono de 4%!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
