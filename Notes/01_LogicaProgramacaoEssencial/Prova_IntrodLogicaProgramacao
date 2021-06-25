@@ -1,0 +1,49 @@
+/* 
+                    ╔═╦═╗
+                    ║║║║╠═╦╦╦╦══╦═╦╦╦╗
+                    ║║║║║╩╣║║║║║║╩╣║║║
+Developed By:       ╚╩═╩╩═╩══╩╩╩╩═╩══╝
+*/
+
+Exercicios Resolvidos da Prova de Introdução a Logica de Programação da Digital Innovation One. 
+Neste repositorio anotei apenas as respostas corretas de cada pergunta. Quando eu resolvi os exercícios da prova, acertei 80% do conteudo.
+
+
+1- Podemos definir lógica como?
+    - Sequência coerente, regular e necessária de acontecimentos, coisas.
+2- Metacognição pode ser definida como?
+    - Pensar como você pensa.
+3- O que é uma variável?
+    - Uma variável é um espaço na memória do computador destinado a um dado que é alterado durante a execução do algoritmo.
+4- Como podemos definir as tomadas de decisão em um algoritmo?
+    - Quando ocorre a necessidade de decidir o que fazer dependendo de alguma condição encontrada durante a execução.
+5- Qual a melhor definição para lógica de programação?
+    - Contextualizar a lógica na programação de computadores, buscando a melhor sequência de ações para solucionar um problema.
+6- Analise o pseudocódigo a seguir:
+
+inteiro nota1,nota2,nota3,nota4,media
+nota1 = 10
+nota2 = 10
+nota3 = 8
+nota4=8
+media=(nota1+nota2+nota3+nota4)/4
+
+Qual o valor foi atribuído a variável media?
+    - 9
+7- Podemos definir pseudocódigo como?
+    - Pseudocódigo é uma forma genérica de escrever um algoritmo, utilizando uma linguagem simples.
+8- Podemos definir um algoritmo como?
+    - Uma sequência de passos que resolve um problema.
+9- Analise o código a seguir:
+
+inteiro A,B,C
+A = 1
+B = 2
+C = 3
+D = A + C
+
+Qual o valor foi atribuído a variável D?
+    - 4
+10- Podemos definir fluxograma como?
+    - Fluxograma é uma ferramenta utilizada para representar graficamente o algoritmo, isto é, a sequência lógica e coerente do fluxo de dados.
+

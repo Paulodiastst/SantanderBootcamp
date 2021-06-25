@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="lilik"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-25 05:18:17 "/>
+        <attribute name="created" value="bGlsaWs7TUVXTUVXOzIwMjEtMDYtMjU7IjA0OjMxOjMyICI7MjE4NQ=="/>
+        <attribute name="edited" value="bGlsaWs7TUVXTUVXOzIwMjEtMDYtMjU7IjA1OjE4OjE3ICI7MTsyMzAy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NumeroTabuada, NumeroInicial, NumeroFinal, NumeroTotal" type="Integer" array="False" size=""/>
+            <output expression="&quot;Tabuado do: &quot;" newline="True"/>
+            <input variable="NumeroTabuada"/>
+            <output expression="&quot;A tabuado do &quot; &amp; NumeroTabuada &amp; &quot; come&#231;a no : &quot;" newline="True"/>
+            <input variable="NumeroInicial"/>
+            <output expression="&quot;A tabuado do &quot; &amp; NumeroTabuada &amp; &quot; come&#231;a no : &quot; &amp; NumeroInicial &amp; &quot; e vai at&#233; o: &quot;" newline="True"/>
+            <input variable="NumeroFinal"/>
+            <while expression="NumeroInicial&lt;NumeroFinal">
+                <assign variable="NumeroInicial" expression="NumeroInicial+1"/>
+                <assign variable="NumeroTotal" expression="NumeroInicial*NumeroTabuada"/>
+                <output expression="NumeroTotal" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

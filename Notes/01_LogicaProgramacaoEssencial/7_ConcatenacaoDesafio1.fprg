@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="lilik"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-25 01:54:24 "/>
+        <attribute name="created" value="bGlsaWs7TUVXTUVXOzIwMjEtMDYtMjU7IjAxOjQwOjEyICI7MjE4MA=="/>
+        <attribute name="edited" value="bGlsaWs7TUVXTUVXOzIwMjEtMDYtMjU7IjAxOjU0OjI0ICI7MTsyMjk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nome" type="String" array="False" size=""/>
+            <declare name="NotaPortugues, NotaMatematica, NotaGeografia, NotaSociologia, Media" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o nome do aluno: &quot;" newline="True"/>
+            <input variable="Nome"/>
+            <output expression="&quot;Digite as notas de : &quot;" newline="True"/>
+            <output expression="&quot;Portugu&#234;s: &quot;" newline="True"/>
+            <input variable="NotaPortugues"/>
+            <output expression="&quot;Matematica: &quot;" newline="True"/>
+            <input variable="NotaMatematica"/>
+            <output expression="&quot;Geografia: &quot;" newline="True"/>
+            <input variable="NotaGeografia"/>
+            <output expression="&quot;Sociologia: &quot;" newline="True"/>
+            <input variable="NotaSociologia"/>
+            <assign variable="Media" expression="(NotaPortugues+NotaGeografia+NotaMatematica+NotaSociologia)/4"/>
+            <if expression="Media&gt;=7">
+                <then>
+                    <output expression="&quot;Aprovado(a)&quot; &amp; &#13;&#10;&quot; A nota de &quot; &amp; Nome &amp; &quot; em Portugu&#234;s &#233; de &quot; &amp; NotaPortugues &amp; &quot; , a de Matematica &#233; &quot; &amp; NotaMatematica &amp; &quot; , a de Geografia &#233; &quot; &amp; NotaGeografia &amp; &quot; e a de Sociologia &#233; de &quot; &amp; NotaSociologia &amp; &quot; totalizando a m&#233;dia de : &quot; &amp; Media" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Reprovado(a)&quot; &amp; &#13;&#10;&quot; A nota de &quot; &amp; Nome &amp; &quot; em Portugu&#234;s &#233; de &quot; &amp; NotaPortugues &amp; &quot; , a de Matematica &#233; &quot; &amp; NotaMatematica &amp; &quot; , a de Geografia &#233; &quot; &amp; NotaGeografia &amp; &quot; e a de Sociologia &#233; de &quot; &amp; NotaSociologia &amp; &quot; totalizando a m&#233;dia de : &quot; &amp; Media" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -264,3 +264,20 @@ Antes de sentar para resolver o código é recomendavel que escrevamos o passo-a
 
 -------------------------- // -------------------------- // -------------------------- // --------------------------
 5- Concatenação : Operação de unir o conteudo de duas strings (*string é uma sequencia de caracteres) dando origem a unico resultado
+
+    Inicio
+        Text Nome,Sobrenome
+        Inteiro Idade
+
+        Escrever "Digite o seu nome: "
+        Ler Nome
+
+        Escrever "Digite o seu sobrenome: "
+        Ler Sobrenome
+
+        Escrever "Digite a sua idade: "
+        Ler Idade
+
+        Escrever "O seu primeiro nome é " & Nome & " e o segundo é " & Sobrenome & " e a idade é de " & Idade & " anos. "
+    Fim
+-------------------------- // -------------------------- // -------------------------- // --------------------------
