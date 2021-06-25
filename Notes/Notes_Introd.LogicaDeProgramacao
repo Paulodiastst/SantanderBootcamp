@@ -29,7 +29,6 @@ Crie um mapa mental para resolver um determinado problema, por exemplo, calcular
 -------------------------- // -------------------------- // -------------------------- // --------------------------
 
 2- O que são algoritmos e pseudocódigos
-
 Sequencia logica de acontecimentos :
     Inicio do dia:
         Acordei
@@ -46,7 +45,6 @@ Sequencia logica de acontecimentos :
 
 
 Pseudocódigos :
-
 Forma generica de escrever um algoritmo.
 
 Desafio 00 -    Wolf, Sheep and Cabbage Game : O fazendeiro precisa levar o Alface, a Ovelha e o Lobo para o outro lado do rio mas só cabe uma coisa no seu barco e ele não pode deixar o Lobo sozinho com a Ovelha e nem a Ovelha sozinha com o Alface.
@@ -198,4 +196,23 @@ Desafio 03 - Os pinguins filhotes tem medo de ficar longe de seus pais, por isso
 
         Link: https://rachacuca.com.br/jogos/pinguins-numa-fria/
             
+-------------------------- // -------------------------- // -------------------------- // --------------------------
+3- Aprendendo fluxograma, variaveis e constantes
+
+Antes de sentar para resolver o código é recomendavel que escrevamos o passo-a-passo dele antes.
+
+    Inicio
+        Declara nota1 : número
+        Declara nota2 : número
+        Declara nota3 : número
+        Declara nota4 : número
+        Declara media : número
+        Leia (nota1)
+        Leia (nota2)
+        Leia (nota3)
+        Leia (nota4)
+        Media = (nota1 + nota2 + nota3 + nota4)/4
+        Imprimir (media)
+    Fim
+    
 -------------------------- // -------------------------- // -------------------------- // --------------------------
