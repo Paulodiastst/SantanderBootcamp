@@ -222,12 +222,32 @@ Antes de sentar para resolver o código é recomendavel que escrevamos o passo-a
     Inicio
         Declara pi = 3,14 // Constantes
     Fim
-    
+
     //Variavel
     Inicio
         Declara raio = número
     Fim
 
-
-
 -------------------------- // -------------------------- // -------------------------- // --------------------------
+4- Tomadas de decisões e expressões
+    //São expressões que utilizam operadores aritmeticos e funções aritmeticas envolvendo constantes e variaveis
+
+    Exemplo:
+    50+50
+    total+50
+
+    + - * / ^ %
+
+    //Expressoes literais : Com constantes e/ou variaveis que tem como resultado valores literais
+
+    Exemplos:
+    nome="José da Silva"
+    nome<-"José da Silva"
+    Media=(nota1+nota2+nota3+nota4)/4
+
+    //Exemplos de expressoes aritmeticas e literais
+    
+    Variavel:  |    Comando de atribuição/operação:  
+    A               A = 2
+    B               B = A + 3
+    C               C = A + B
