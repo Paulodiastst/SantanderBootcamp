@@ -1,6 +1,6 @@
 programa
 {
-	
+	//Calculo de Média - Media Aritmetica Simples
 	funcao inicio()
 	{
 		real Nota1,Nota2,Nota3,Nota4,Media
@@ -38,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 568; 
+ * @POSICAO-CURSOR = 60; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
