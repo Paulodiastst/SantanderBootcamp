@@ -281,3 +281,8 @@ Antes de sentar para resolver o código é recomendavel que escrevamos o passo-a
         Escrever "O seu primeiro nome é " & Nome & " e o segundo é " & Sobrenome & " e a idade é de " & Idade & " anos. "
     Fim
 -------------------------- // -------------------------- // -------------------------- // --------------------------
+5- Aprenda a utilizar desvios condicionais e boas práticas em Programação
+    Se
+        Se (Media > 7) {
+            escreva("Parabéns! Você foi aprovado");
+        }
