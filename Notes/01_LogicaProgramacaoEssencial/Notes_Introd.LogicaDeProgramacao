@@ -287,7 +287,19 @@ Antes de sentar para resolver o código é recomendavel que escrevamos o passo-a
             escreva("Parabéns! Você foi aprovado");
         }
 
-    Desvio condicional
+    Desvio condicional 1
         Se escolha = 1 faça isso
         Se escolha = 2 faça isso
         Senao faça isso
+
+    Desvio condicional 2
+        Caso
+
+        caso 1 : //testa se o valor é igual a 1
+            escreva("Ok, faça isso)
+        pare //comando pare para parar o comando
+
+        e
+
+        caso contrario:
+            escreva("Você precisa digitar algo")
