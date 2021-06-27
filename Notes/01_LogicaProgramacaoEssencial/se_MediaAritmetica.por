@@ -1,6 +1,7 @@
 programa
 {
 	//Calculo de Média - Media Aritmetica Simples
+	//Autor(a): Larissa/Mewmew
 	funcao inicio()
 	{
 		real Nota1,Nota2,Nota3,Nota4,Media
@@ -25,9 +26,11 @@ programa
 
 		escreva ("Sua média é: " + Media)
 
+		//Verifica se a média é maior ou igual a sete
 		se (Media >= 7) {
 			escreva("\n" + "Parabéns! Você foi aprovado!")
 		}
+		//Verifica se a media é menor do que sete
 		senao {
 			escreva("\n""Você foi reprovado!")
 		}
@@ -38,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 60; 
+ * @POSICAO-CURSOR = 654; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
