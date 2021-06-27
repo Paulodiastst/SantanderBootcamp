@@ -286,3 +286,8 @@ Antes de sentar para resolver o código é recomendavel que escrevamos o passo-a
         Se (Media > 7) {
             escreva("Parabéns! Você foi aprovado");
         }
+
+    Desvio condicional
+        Se escolha = 1 faça isso
+        Se escolha = 2 faça isso
+        Senao faça isso
