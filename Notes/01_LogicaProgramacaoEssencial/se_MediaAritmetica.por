@@ -29,7 +29,7 @@ programa
 			escreva("\n" + "Parabéns! Você foi aprovado!")
 		}
 		senao {
-			escreva("Você foi reprovado!")
+			escreva("\n""Você foi reprovado!")
 		}
 	}
 }
@@ -38,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 490; 
+ * @POSICAO-CURSOR = 568; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
