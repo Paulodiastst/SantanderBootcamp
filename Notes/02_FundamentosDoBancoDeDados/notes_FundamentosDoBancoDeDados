@@ -1,0 +1,62 @@
+- Fundamentos de banco de dados ✏️ -
+
+1. Fundamentos de banco de dados
+    • Dados : Valores brutos que são documentados, recolhidos e armazenado sem sofrer qualquer tipo de tratamento.
+    Exemplo:    11921929 121212 Larissa
+                11122312 12121 Kennedy
+                Stefany 122112 21212121
+                //  São apenas dados ^ não fazem sentido
+    • Informações : Agrupamento de dados relacionados entre si que possuem um sentido atribuido.
+     Exemplo:    Telefones:          Proprietarios:
+                 11921929 121212     Larissa
+                 11122312 1212112    Kennedy
+                 122112 21212121     Stefany
+                //  Agora eles possuem valor porque conseguimos distingui-los ^
+2. Modelo relacional
+    Modelar: Criar um modelo que explique as caracteristicas de funcionamento de um software mas neste contexto é a **Modelagem de Dados**. Ferramentas que permitam com que as estruturas de dados estejam organizadas e relacionadas entre si(Dados armazenados em tabelas com linhas e colunas).
+    Exemplo: Tabela mencionada acima:
+                1-
+                Telefones:           Proprietarios:
+                11921929 121212      Larissa
+                11122312 1212112  >  Kennedy
+                122112 21212121      Stefany
+
+                2-
+                Telefones:           Proprietarios:
+                11921929 121212    ->  Larissa
+                11122312 1212112   ->  Kennedy
+                122112 21212121   _/  Stefany //O dado está salvado mas nao se relaciona
+                //  Eles podem se relacionar de varias maneiras, podendo ser uma seta apontando pra um só ou para varios.
+    Tabelas: Conjuntos de dados dispostos em colunas e linhas referentes a um objetivo comum.
+        • O que é uma tabela?
+            Coisas tangiveis: Elementos Fisicos (Carro, Produto, Animal etc)
+            Funções: Perfis de usuarios, status de compra...
+            Eventos ou ocorrencias: Produtos de um pedido, historico de dados etc
+        • Colunas importantes:
+            Chave primaria / Primary Key :
+                Conjunto de um ou mais campos onde as coisas nunca se repetem. O valor será usado como indice de referencia para criar uma relação entre as outras tabelas. Uma especie de "ID/CPF".
+            Chave Estrangeira / Foreign Key :
+                Valor de referencia de uma Chave Primaria de outra tabela para criar um relacionamento.
+
+3. Introdução ao PostgreSQL
+    Sistema de gerenciamento de dados:
+        SGBD. Softwares responsaveis pelo gerenciamento de dados, criando as tabelas. MySQL, PostgreSQL etc. Cada um tem a sua habilidade.
+    PostgreSQL : Sistema de gerenciamento de banco de dados objeto relacional. Banco de dados open-source, ele pode usado, modificado e distribuido para qualquer pessoa/instituição.
+        Possui diversos processo que estão sendo iniciados por dentro do servidor, executando varias tarefas.Um processo cuidando de cada etapa que é feita dentro do software.
+        O modelo do PostgreSQL é : 
+            Modelo cliente          | Servidor
+            Interface Grafica         Conforme o mencionado acima, é a parte não visivel ao cliente.
+            Terminal                
+            Aplicação               
+
+    Principais caracteristicas do PostgreSQL:
+        • OpenSource
+        • Point in time reccovery
+        • Linguagem Procedural a várias linguagens de programação (perl, python, etc)
+        • Views, functions, procedures, triggers
+        • Condultas complexas e common table expressions(CTE)
+        • Suporte a dados geográficos (PostGIS)
+        • Controle de concorrência de multi-versão
+
+        Link para baixar: https://www.postgresql.org
+        Documentação: www.postgresql.org/docs/manuals
