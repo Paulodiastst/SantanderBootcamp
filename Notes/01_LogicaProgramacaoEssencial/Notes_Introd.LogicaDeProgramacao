@@ -310,7 +310,7 @@ Antes de sentar para resolver o código é recomendavel que escrevamos o passo-a
     contador = 0
     limite = 10
 
-    faca {
+    faca { //Faca é similar ao While
         resultado = 9 * contador
         escreva ("9x" + contador + " = " + resultado + "\n")
         contador++ //Equivale a contador = contador +1
