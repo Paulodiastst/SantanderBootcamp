@@ -281,7 +281,7 @@ Antes de sentar para resolver o código é recomendavel que escrevamos o passo-a
         Escrever "O seu primeiro nome é " & Nome & " e o segundo é " & Sobrenome & " e a idade é de " & Idade & " anos. "
     Fim
 -------------------------- // -------------------------- // -------------------------- // --------------------------
-5- Aprenda a utilizar desvios condicionais e boas práticas em Programação
+6- Aprenda a utilizar desvios condicionais e boas práticas em Programação
     Se
         Se (Media > 7) {
             escreva("Parabéns! Você foi aprovado");
@@ -303,3 +303,15 @@ Antes de sentar para resolver o código é recomendavel que escrevamos o passo-a
 
         caso contrario:
             escreva("Você precisa digitar algo")
+
+-------------------------- // -------------------------- // -------------------------- // --------------------------
+7- Trabalhando com laços de repetição
+    Inteiro contador, limite, resultado
+    contador = 0
+    limite = 10
+
+    faca {
+        resultado = 9 * contador
+        escreva ("9x" + contador + " = " + resultado + "\n")
+        contador++ //Equivale a contador = contador +1
+    } enquanto (contador <= limite)
