@@ -12,6 +12,7 @@
                  11122312 1212112    Kennedy
                  122112 21212121     Stefany
                 //  Agora eles possuem valor porque conseguimos distingui-los ^
+                
 2. Modelo relacional
     Modelar: Criar um modelo que explique as caracteristicas de funcionamento de um software mas neste contexto é a **Modelagem de Dados**. Ferramentas que permitam com que as estruturas de dados estejam organizadas e relacionadas entre si(Dados armazenados em tabelas com linhas e colunas).
     Exemplo: Tabela mencionada acima:
@@ -27,6 +28,7 @@
                 11122312 1212112   ->  Kennedy
                 122112 21212121   _/  Stefany //O dado está salvado mas nao se relaciona
                 //  Eles podem se relacionar de varias maneiras, podendo ser uma seta apontando pra um só ou para varios.
+
     Tabelas: Conjuntos de dados dispostos em colunas e linhas referentes a um objetivo comum.
         • O que é uma tabela?
             Coisas tangiveis: Elementos Fisicos (Carro, Produto, Animal etc)
