@@ -315,3 +315,27 @@ Antes de sentar para resolver o código é recomendavel que escrevamos o passo-a
         escreva ("9x" + contador + " = " + resultado + "\n")
         contador++ //Equivale a contador = contador +1
     } enquanto (contador <= limite)
+
+-------------------------- // -------------------------- // -------------------------- // --------------------------
+8- Aplicação prática com matrizes e vetores
+//Uma matriz é uma coleção de variaveis de um mesmo tipo, acessiveis com um unico nome e armazenados contiguamente na memoria
+
+Como se fosse uma tabela com linhas e colunas, ai voce vai indicar a posição da informação que você deseja.
+
+Os Vetores são matrizes de uma só dimensão.
+
+Exemplo:
+    cadeia vetor[5]; //declara um vetor de 5 posições
+    cadei matriz[5][3] //declara uma matriz de 5 linhas e 3 colunas
+
+    cadeia frutas[4]
+    frutas[0]="Maça" //O indice é sempre iniciado no zero
+    frutas[1]="Pera"
+    frutas[2]="Uva"
+    frutas[3]="Melão"
+
+    escreva(frutas[2])
+
+    cadeia cesta[][] = {{"Maça","100"},{"Pera", "200"},{"Meção","300"}}
+
+    escreva ("Fruta: " + cesta[0][0] + "Quantidade: " + ceesta[0][1])
