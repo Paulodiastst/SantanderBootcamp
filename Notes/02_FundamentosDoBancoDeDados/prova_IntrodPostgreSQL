@@ -1,0 +1,40 @@
+/* 
+                    ╔═╦═╗
+                    ║║║║╠═╦╦╦╦══╦═╦╦╦╗
+                    ║║║║║╩╣║║║║║║╩╣║║║
+Developed By:       ╚╩═╩╩═╩══╩╩╩╩═╩══╝
+*/
+
+Exercicios Resolvidos da Prova de Introdução ao PostgreSQL da Digital Innovation One. 
+Neste repositorio anotei apenas as respostas corretas de cada pergunta. Quando eu resolvi os exercícios da prova, acertei 70% do conteudo.
+
+1- O que são dados?
+São fatos brutos estocados sem qualquer alteração.
+
+2- Quais são as duas principais colunas de uma tabela?
+Chave primária e chave estrangeira.
+
+3- Indique a alternativa que apresenta três características do PostgreSQL:
+Suporte a dados geográficos (PostGIS), Linguagem procedural também em Python, Opensource.
+
+4- O que significa a sigla SGBD?
+Sistema gerenciador de banco de dados.
+
+5- O que é o pgAdmin?
+Uma interface gratuita para interação com o banco de dados PostgreSQL.
+
+6- As colunas de uma tabela são também chamadas de:
+Atributos da tabela.
+
+7- Para instalar o PostgreSQL no Windows nós precisamos:
+Informar na instalação a porta do banco de dados que por padrão é 5432.
+
+8- Onde estão armazenados os dados no modelo relacional?
+Armazenados em tabelas.
+
+9- O que são informações?
+São dados agrupados e com uma definição atribuída, gerando valor.
+
+
+10- Qual é o modelo mais comum de banco de dados?
+Modelo relacional.
