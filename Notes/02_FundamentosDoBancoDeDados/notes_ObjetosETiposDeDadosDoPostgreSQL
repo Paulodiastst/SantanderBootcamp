@@ -1,0 +1,50 @@
+- Objetos e tipos de dados do PostgreSQL ✏️ -
+
+
+1- O arquivo postgresql.conf:
+    Arquivo onde estão definidos e armazenadas todas as configurações do servidor PostgreSQL.
+    - View pg_settings : Mostra todas as configurações que existem atualmente em execução no postgresql. 
+    - Fica dentro do diretório PGDATA.
+
+    Program Files > PostgreSQL > 11 > Data
+
+    - Configurações de conexão:
+        LISTEN_ADDRESS : Endereços TCP/IP das interfaces que o servidor postgresql vai escutar/liberar conexoes.
+        PORT : A porta TCP que o servidor PostgreSQL vai ouvir. O padrão é 5432.
+        MAX_CONNECTIONS : Numero máximo de conexoes simultaneas no servidor PostgreSQL
+        SUPERUSER_RESERVED_CONNECTIONS : Numero de conexoes (slots) reservadas para conexoes ao banco de dados e super usuarios.
+
+    - Configurações de autenticação:
+        AUTHENTICATION_TIMEOUT : Tempo maximo em segundos para o cliente conseguir uma conexão com o servidor.
+        PASSAWORD_ENCRYPTION : Algoritmo de criptografia das senhas dos novos usuarios criados no banco de dados
+        SSL : Habilita a conexão criptografada por SSL
+        
+    - Configurações de Memória:
+        SHARED_BUFFERS : Tamanho da memória compartilhada do servidor PostgreSQL para cache/buffer de tabelas, indices e demais relações.
+        WORK_MEM : Tamanhoo da memoria para operações de agrupamento e ordenação (ORDER BY, DISTINCT, MERGE JOINS).
+        MAINTENANCE_wORK_MEM : Tamanho da memoria para operações como VACUUM, INDEX, ALTER TABLE.
+
+2- O arquivo pg_hba.config :
+    Responsavel pelo controle das autenticações do usuario no seu banco de dados.
+    Usuario vendas só acessa x IP
+    Usuario de consultoria só pode acessar com uma senha criptografa em IP tal.
+    Exemplo: Local DataBase user auth-method [auth-options]
+
+    - Metodos de autenticação:
+        Trust (conexão sem requisição de senha)
+        Reject (rejeita conexoes)
+        MD5 (Criptografia md5)
+        Password (senha sem criptografia)
+        GSS (generic security service application program interface)
+        SSPI (security support provider interface - somente para windows)
+        KRB5 (kerberos V5)
+        Ident (utiliza o usuario do sistema operacional do cliente via  ident server)
+        Peer ( utiliza o usuario do sistema operacional do cliente)
+        LDAP (idap server)
+        Radius (radius server)
+        Cert (autenticação via certificado ssl do cliente)
+        etc ..
+
+3- O arquivo pg_ident.conf :
+    Ele é o responsavel por fazer o mapamento do usuario do sistema operacional com o usuario criado dentro do banco de dados.
+    - Diretorio : PGDATA
