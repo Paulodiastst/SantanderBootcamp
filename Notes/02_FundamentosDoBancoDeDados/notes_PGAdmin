@@ -1,0 +1,13 @@
+- PGAdmin 💻 -
+
+Para que você possa se conectar o banco é importante que você libere o acesso ao banco de dados.
+    1. Liberar o acesso ao cluster em postgresql.conf
+    2. Liberar acesso ao cluster para o suuario do banco de dados em pg_hba.conf
+    3. Criar/editar usuarios.
+
+Open PostgreSQL.conf
+    # CONNECTIONS AND AUTHENTICATION
+        listen_addresses = 'localhost'
+        Observação : Não coloque o '*' porquê é considerado uma falha de segurança. Isso faz com que qualquer IP se conecte com o seu banco de dados.
+
+        Todo comando em sql precisa terminar em ;
