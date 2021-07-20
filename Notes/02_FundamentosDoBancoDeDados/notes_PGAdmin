@@ -16,3 +16,15 @@ Open PostgreSQL.conf
 Iniciando o PostgreSQL no Windows:
     - Service > Procurar por PostgreSQL > Inicar
     https://www.ti-enxame.com/pt/postgresql/como-iniciar-o-postgresql-no-windows/824876259/
+
+    - Seleciona o banco de dados > Aba Tools no Top > Query Tool
+        No Query Tool se escreve os comandos do banco de dados.
+
+        select 1;
+        CREATE DATABASE aulaDB;
+        depois vai até o DataBase e da Refresh para atualizar
+
+    // Importante para Conexão:
+        1. Liberar acesso ao cluster em postgresql.conf
+        2. Liberar acesso ao cluster para o usuário do banco de dados em pg_hba.conf
+        3. Criar/editar usuarios.
