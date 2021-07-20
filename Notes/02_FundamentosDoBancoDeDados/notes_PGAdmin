@@ -11,3 +11,8 @@ Open PostgreSQL.conf
         Observação : Não coloque o '*' porquê é considerado uma falha de segurança. Isso faz com que qualquer IP se conecte com o seu banco de dados.
 
         Todo comando em sql precisa terminar em ;
+
+- Programa PGAdmin 💻 -
+Iniciando o PostgreSQL no Windows:
+    - Service > Procurar por PostgreSQL > Inicar
+    https://www.ti-enxame.com/pt/postgresql/como-iniciar-o-postgresql-no-windows/824876259/
