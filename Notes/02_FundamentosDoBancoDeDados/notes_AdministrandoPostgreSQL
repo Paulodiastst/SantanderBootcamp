@@ -1,3 +1,15 @@
 - Administrando o Banco de Dados 👥 -
 
 Conceitos de users/roles/groups : Perfis/roles de atuação que possuem permissoes em comum ou especificas. 
+
+CREATE ROLE professores NOCREATEDB NOCREATEROLE INHERIT NOLOGIN NOBYPASSRLS CONNECTION LIMIT 10;
+ALTER ROLE professores PASSWORD 'SENHA';
+CREATE ROLE daniel LOGIN PASSWORD 'SENHA';
+    dois --  antes do comando começar para comenta-lo 
+    -- CREATE ROLE daniel LOGIN PASSWORD 'SENHA';
+
+
+DROP ROLE daniel;
+CREATE ROLE daniel LOGIN PASSWORD '123' IN ROLE professores;
+
+** Administrando os Acessos
